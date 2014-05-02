@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
+<!-- 
  * Copyright (C) 2007 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,17 +16,89 @@
  -->
 
 <resources>
-    <string-array name="entries_dual_led_colors" translatable="false">
-        <item>@string/trackball_color_entry_use_app</item>
-        <item>@string/trackball_color_entry_green</item>
-        <item>@string/trackball_color_entry_red</item>
-        <item>@string/trackball_color_entry_amber</item>
-    </string-array>
+    <string-array name="lcd_density_entries">
+        <item>105</item>  
+        <item>110</item>
+        <item>115</item>
+        <item>120</item>
+        <item>125</item>
+        <item>130</item>
+        <item>custom</item>
+     </string-array>
 
-    <string-array name="values_dual_led_colors" translatable="false">
-        <item>default</item>
-        <item>green</item>
-        <item>red</item>
-        <item>yellow</item>
-    </string-array>
+     <string-array name="statusbar_iconsize_entries">
+        <item>15dp</item>
+        <item>16dp</item>
+        <item>17dp</item>
+        <item>18dp</item>
+        <item>19dp</item>
+        <item>20dp</item>
+        <item>21dp</item>
+        <item>22dp</item>
+        <item>23dp</item>
+        <item>24dp</item>
+        <item>25dp(Default)</item>
+        <item>26dp</item>
+        <item>27dp</item>
+        <item>28dp</item>
+        <item>29dp</item>
+        <item>30dp</item>
+     </string-array>
+  
+     <string-array name="statusbar_iconsize_values">
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+     </string-array>
+
+     <string-array name="statusbar_navisize_entries">
+        <item>15dp</item>
+        <item>16dp</item>
+        <item>17dp</item>
+        <item>18dp</item>
+        <item>19dp</item>
+        <item>20dp</item>
+        <item>21dp</item>
+        <item>22dp</item>
+        <item>23dp</item>
+        <item>24dp</item>
+        <item>25dp(Default)</item>
+        <item>26dp</item>
+        <item>27dp</item>
+        <item>28dp</item>
+        <item>29dp</item>
+        <item>30dp</item>
+     </string-array>
+  
+     <string-array name="statusbar_navisize_values">
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+     </string-array>
 </resources>
