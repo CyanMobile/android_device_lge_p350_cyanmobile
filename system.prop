@@ -30,6 +30,19 @@ ro.opengles.version=131072
 # larger vm heaps
 dalvik.vm.heapsize=24m
 
+# cmx
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
+persist.sys.ui.hw=true
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.heapsize=32m
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.dexopt-data-only=1
+ro.config.hw_menu_unlockscreen=false
+ro.service.swiqi.supported=true
+debug.sf.hw=1
+
 ## qc ril doesn't repeat the rings
 ro.telephony.call_ring.multiple=false
 ro.telephony.call_ring.delay=3000
