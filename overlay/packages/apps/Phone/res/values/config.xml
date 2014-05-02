@@ -48,7 +48,7 @@
          specific properties of the device, perhaps by detecting the
          presence of a proximity sensor and/or hard SEND/END keys.  (If
          so, we wouldn't need this flag at all.) -->
-    <bool name="allow_in_call_touch_ui">false</bool>
+    <bool name="allow_in_call_touch_ui">true</bool>
 
     <!-- OTA configuration values, used when provisioning CDMA devices.
          Following defaults values of zero means OTA UI is completely disabled.
@@ -78,8 +78,17 @@
          apps/Contacts. -->
     <bool name="config_enable_dialer_key_vibration">true</bool>
 
-    <!-- Flag indicating if the voicemail notification option is enabled -->
-    <bool name="voicemail_notification_enabled">true</bool>
+    <!-- Flag indicating if the tty is enabled -->
+    <bool name="tty_enabled">false</bool>
+
+    <!-- Flag indicating if hac is enabled -->
+    <bool name="hac_enabled">false</bool>
+
+    <!-- Flag indicating if dtmf tone type is enabled -->
+    <bool name="dtmf_type_enabled">false</bool>
+
+    <!-- Flag indicating if auto retry is enabled -->
+    <bool name="auto_retry_enabled">false</bool>
 
     <!-- Determine whether we want to play local DTMF tones in a call, or
          just let the radio/BP handle playing of the tones. -->
@@ -108,6 +117,5 @@
     <bool name="send_mic_mute_to_AudioManager">true</bool>
 
     <!-- Determines if device implements a noise suppression device for in call audio-->
-    <!-- <bool name="has_in_call_noise_suppression">false</bool> -->
-
+    <bool name="has_in_call_noise_suppression">false</bool>
 </resources>
