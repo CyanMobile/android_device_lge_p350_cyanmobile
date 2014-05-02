@@ -17,6 +17,10 @@ on boot
     chown bluetooth bluetooth /sys/class/rfkill/rfkill0/state
     chown bluetooth bluetooth /sys/class/rfkill/rfkill0/type
     write /sys/class/rfkill/rfkill0/state 0
+    
+# CMX Changes
+    setprop ro.squadzone.build 1
+    setprop persist.sys.gmaps_hack 1
 
 # VIBRATOR
     chmod 0666 /sys/class/timed_output/vibrator/amp
